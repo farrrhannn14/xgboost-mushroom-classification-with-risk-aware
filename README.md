@@ -1,11 +1,11 @@
-# 🍄 Mushroom Toxicity Classification using XGBoost
+#  Mushroom Toxicity Classification using XGBoost
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on developing a binary classification model to predict whether mushrooms are **poisonous or edible** based on their physical and environmental characteristics. The model was developed using **XGBoost** with an emphasis not only on predictive performance, but also on **reliability of decision-making and risk-aware evaluation**. Instead of relying on default settings and aggregate metrics, this project explores how **feature importance analysis** and **threshold adjustment** can significantly affect model prediction results in classifications that are critical to safety.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Build a binary classifier for mushroom toxicity detection  
 - Analyze the most influential features driving model predictions  
 - Evaluate model performance beyond accuracy-based metrics  
@@ -13,7 +13,7 @@ This project focuses on developing a binary classification model to predict whet
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 The dataset contains categorical and numerical features describing mushroom characteristics, such as:
 - Cap shape, surface, and color  
 - Gill attachment and gill color  
@@ -23,7 +23,7 @@ The dataset contains categorical and numerical features describing mushroom char
 
 The target variable indicates whether a mushroom is **poisonous (1)** or **edible (0)**.
 
-## 📎 Data Source
+## Data Source
 
 The dataset used in this project was obtained from Kaggle:
 
@@ -33,7 +33,7 @@ Link: [Dataset](https://www.kaggle.com/datasets/vishalpnaik/mushroom-classificat
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 - **Language**: `Python`
 - **Algorithm**: `XGBoost Classifier`  
 - **Preprocessing**:
@@ -50,7 +50,7 @@ The model demonstrates strong baseline performance before any threshold adjustme
 
 ---
 
-## 🔍 Feature Importance Analysis
+## Feature Importance Analysis
 To understand which features contribute most to the model’s predictions, feature importance scores from XGBoost were analyzed.
 
 Key observations:
@@ -62,7 +62,7 @@ Key Visualization:
 
 ---
 
-## ⚖️ Threshold Tuning and Risk Considerations
+## Threshold Tuning and Risk Considerations
 In real-world mushroom classification, the cost of misclassification is **asymmetric**.  
 A **false negative**—classifying a poisonous mushroom as edible—poses a far greater risk than a false positive.
 
